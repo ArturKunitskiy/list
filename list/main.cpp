@@ -1,5 +1,4 @@
-#include "ForwardList.h"
-#include "List.h"
+#include "list.h"
 #include <iostream>
 using namespace std;
 int main()
@@ -29,6 +28,8 @@ int main()
     list.push_back(1);
     list.push_back(-5);
     list.push_front(0);
+    list.show();
+    list.clear();
     list.show();
     return 0;
 }
